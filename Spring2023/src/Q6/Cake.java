@@ -4,10 +4,6 @@ public class Cake {
     protected String name;
     protected double rate;
 
-    public double getRate() {
-        return rate;
-    }
-
     public Cake(String n, double r) {
         name = n;
         rate = r;

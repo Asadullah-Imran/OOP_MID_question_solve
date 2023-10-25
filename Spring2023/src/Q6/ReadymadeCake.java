@@ -7,10 +7,9 @@ class ReadymadeCake extends Cake{
         quantity = q;
     }
     public double calcPrice(){
-        return super.rate*quantity;
+        return rate*quantity;
     }
     public void printDetails(){
-        System.out.println("Prints the detail.");
         System.out.println("Name: "+name);
         System.out.println("Rate: "+rate);
         System.out.println("Quantity: "+quantity);

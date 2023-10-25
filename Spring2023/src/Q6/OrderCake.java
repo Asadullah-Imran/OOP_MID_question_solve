@@ -10,7 +10,7 @@ class OrderCake extends Cake{
         return super.rate*this.weight;
     }
     public void printDetails(){
-        System.out.println("Prints the detail.");
+
         System.out.println("Name: "+super.name);
         System.out.println("Rate: "+super.rate);
         System.out.println("Weight: "+weight);
