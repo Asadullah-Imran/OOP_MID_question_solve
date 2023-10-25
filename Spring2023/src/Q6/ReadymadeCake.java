@@ -6,5 +6,16 @@ class ReadymadeCake extends Cake{
         super(n, r);
         quantity = q;
     }
+    public double calcPrice(){
+        return super.rate*quantity;
+    }
+    public void printDetails(){
+        System.out.println("Prints the detail.");
+        System.out.println("Name: "+name);
+        System.out.println("Rate: "+rate);
+        System.out.println("Quantity: "+quantity);
+        System.out.println("Price: "+calcPrice());
+
+    }
 //override calcPrice & printDetails
 }
