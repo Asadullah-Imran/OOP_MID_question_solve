@@ -5,8 +5,10 @@ class Main{
         Cake cake[] =new Cake[2] ;
 // Complete the code
 
-        cake[0]=new OrderCake("Order cake",3,150);
-        cake[1]=new ReadymadeCake("Readymade cake ",2,200);
+        cake[0]=new OrderCake("Order cake",150,3);
+        cake[1]=new ReadymadeCake("Readymade cake ",200,2);
+
+
         for (int i = 0; i < cake.length; i++) {
             cake[i].printDetails();
         }

@@ -8,6 +8,9 @@ public class Human {
     public int getId() {
         return id;
     }
+    {
+        System.out.println("To avoid getting scared or eaten be brave or intelligent.");
+    }
     public boolean getBravery(){
         return bravery;
     }

@@ -14,12 +14,12 @@ public class Monster {
     }
     public boolean eat(Human h){
     if(h.intelligence == "high"){
-        return true;
+        return false;
     }else{
         increaseWeight(10);
 
     }
-        return false;
+        return true;
         //check intelligence and return a boolean value
     }
     public String scare(boolean bravery){
