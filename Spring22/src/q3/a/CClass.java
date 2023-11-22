@@ -1,4 +1,4 @@
-package q3;
+package q3.a;
 
 public class CClass extends PClass{
     void mFnc(){
